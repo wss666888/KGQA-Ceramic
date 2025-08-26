@@ -51,7 +51,8 @@
 - **多轮对话**：上下文关联推理，实现连续、连贯问答
 #### 问答系统示例展示
 
-https://github.com/user-attachments/assets/05040c07-4a0a-4da4-905d-e61b8116f900
+https://github.com/user-attachments/assets/1e6e921c-3780-4357-9cd8-97f61474899f
+
 
 
 

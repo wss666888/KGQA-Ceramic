@@ -24,3 +24,22 @@
 ## 系统流程示意图
 
 ![系统示意图](https://github.com/user-attachments/assets/b0ead2ff-5a8b-411b-bb21-65722aec37f6)
+
+# 核心技术
+
+## 1. 陶瓷领域知识抽取
+
+### 命名实体识别（NER）
+- **模型架构**：BERT-FUSIONATT-CRF  
+- **技术特点**：融合 BERT 语义表示、动态注意力机制与 CRF 序列优化，实现高精度实体识别  
+
+### 关系抽取（RE）
+- **创新模型**：CrossRE-BERT  
+- **技术特点**：引入位置编码 + 实体交互注意力机制，提升实体关系抽取效果  
+
+### 知识图谱构建
+- 基于上述 NER 与 RE 模型自动抽取实体与关系  
+- 优化图谱存储结构，提高查询和推理效率
+- <img width="421" height="320" alt="image" src="https://github.com/user-attachments/assets/61501dfc-a679-4141-81e6-57c562dd9d66" />
+
+

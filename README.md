@@ -1,7 +1,7 @@
 # Knowledge Graph Construction and Question Answering Applications in the Ceramic Domain
 # 项目概述
 
-本项目提出一套面向陶瓷领域的知识图谱构建与智能问答技术框架，旨在实现以下功能：
+本项目提出一套面向陶瓷领域的知识图谱构建与智能问答技术框架（该项目框架亦可应用于其他领域），实现以下功能：
 
 ## 核心功能
 

@@ -31,11 +31,15 @@
 
 #### 命名实体识别（NER）
 - **模型架构**：BERT-FUSIONATT-CRF  
-- **技术特点**：融合 BERT 语义表示、动态注意力机制与 CRF 序列优化，实现高精度实体识别  
+- **技术特点**：融合 BERT 语义表示、动态注意力机制与 CRF 序列优化，实现高精度实体识别
+##### 实体识别输出示例图
+<img width="1544" height="235" alt="image" src="https://github.com/user-attachments/assets/f50d892b-6c88-4e56-aa35-0119d20bec8c" />
 
 #### 关系抽取（RE）
 - **创新模型**：CrossRE-BERT  
-- **技术特点**：引入位置编码 + 实体交互注意力机制，提升实体关系抽取效果  
+- **技术特点**：引入位置编码 + 实体交互注意力机制，提升实体关系抽取效果
+##### 关系抽取输出示例图
+<img width="1402" height="149" alt="image" src="https://github.com/user-attachments/assets/a47983d9-7e87-4854-b843-d95099b7d895" />
 
 ### 2. 知识图谱构建
 - 基于上述 NER 与 RE 模型自动抽取实体与关系  

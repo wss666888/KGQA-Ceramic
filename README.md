@@ -1,4 +1,4 @@
-# Knowledge Graph Construction and Question Answering Applications in the Ceramic Domain
+# Collaborative Large Model–Enhanced Knowledge Graph Construction and Question Answering in the Ceramic Domain
 # 项目概述
 
 本项目提出一套面向陶瓷领域的知识图谱构建与智能问答技术框架（该项目框架亦可应用于其他领域），实现以下功能：
@@ -19,7 +19,9 @@
 
 4. **多轮对话交互**  
    - 上下文感知的对话管理  
-   - 支持连续、连贯的问答场景  
+   - 支持连续、连贯的问答场景
+5. **大模型协同语义增强**
+   - 通过大模型对检索的三元组进行语义增强回答
 
 ### 系统流程示意图
 
